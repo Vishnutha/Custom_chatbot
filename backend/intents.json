@@ -1,0 +1,359 @@
+
+{
+  "intents": [
+
+    {
+      "tag": "Introduction of_bot",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hi, I'm the virtual assistant for bus ticket booking. How may I assist you today? ",
+        "Hello there! I'm the AI assistant designed to make your bus ticket booking experience smooth and easy",
+        "Hey! I'm here to make your travel plans easier by assisting you with all your bus ticket booking needs",
+        "Hi, I'm the virtual assistant here to assist you with your bus ticket bookings."
+      ]
+    },
+
+
+
+
+    {
+      "tag": "Goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+
+
+    {
+      "tag": "Thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure","Welcome!"]
+    },
+
+
+    {
+      "tag": "Assistance_with_booking_a_ticket",
+      "patterns": [
+        "I need to book a bus ticket Can you help?",
+        "Hey, I'm looking to book a bus ticket. Could you guide me through the process?",
+        "Hi, I'm interested in booking a bus ticket. Can you provide support in making the reservation?",
+        "I want to book a bus ticket ,can you assist me through the process"
+      ],
+      "responses": [
+        "Sure! To start, please open the 'Book Bus Tickets' section on the app. Once there, enter your departure city and your destination. After that, select date for your journey. I'll assist you step by step through the process.",
+        "Absolutely! Begin by accessing the 'Book Bus Tickets' section within the app—input  starting point and as your destination. After that, pick date for your journey. I'll be here to guide you through each step.",
+        "Of course! To get started, tap on 'Book Bus Tickets'. From there, enter your departure and destination cities. After that, select date for your journey. I'll assist in the entire process",
+        "No problem! Navigate to the 'Book Bus Tickets' section of the app. Once there, input your departure and destination cities. After that, pick date for your journey. I'll be with you every step of the way to help you complete the booking"
+      ]
+    },
+
+
+    {
+      "tag": "Seat_selection",
+      "patterns": [
+      "How can I choose my preferred seat on the bus?",
+      "What's the process for selecting seats on a bus during booking?",
+      "Can you guide me on how to pick the seat I want when booking a bus ticket?",
+      "Any instructions on how to select specific seats while booking a bus ticket?"
+      ],
+      "responses": [
+        "Once you've selected your route and travel date, you'll see a seat selection screen. Just tap on your preferred seat to reserve it. You can also filter seats based on your preferences. Confirm your selection, and you're all set! Let me know if you need any further assistance",
+        "After choosing your route and travel date, simply tap to select your desired seat on the bus. You can also use filters for specific preferences. Confirm your choice, and you're good to go! Feel free to reach out if you need more help",
+        "Once you've picked your route and travel date, just tap on the seat you want on the bus layout. Customize your search with filters if needed. Once selected, confirm your choice, and you're done! Don't hesitate to ask if you have any questions.",
+        "After selecting your route and date, navigate to the seat selection screen and choose your preferred seat with a tap. Use filters for any special requests. Once you're satisfied, confirm your selection to complete the booking. Let me know if there's anything else I can assist you with"
+      ]
+    },
+
+
+
+    {
+      "tag": "Cancellation_of_tickets",
+      "patterns": [
+        "How do I cancel my bus ticket?",
+
+        "What's the procedure for canceling a booked bus ticket?",
+
+        "Can you guide me through the steps to cancel a bus ticket?",
+
+        "Any instructions on how to initiate the cancellation of a bus ticket"
+      ],
+      "responses": [
+        "To cancel your bus ticket, head to 'My Bookings', choose your ticket, and hit 'Cancel'. Check for any applicable fees. Reach out if you need assistance.",
+        "Cancel your bus ticket by going to 'My Bookings', selecting your ticket, and pressing 'Cancel'. Ensure you're aware of any fees. Let me know if you have questions.",
+        "To cancel, navigate to 'My Bookings', locate your ticket, and click 'Cancel'. Be mindful of any fees. Need help? Just ask",
+        "To cancel your bus ticket, go to 'My Bookings', select your ticket, and tap 'Cancel'. Review any fees or policies. Let me know if you need more help."
+      ]
+    },
+
+
+    {
+      "tag": "Payment_options",
+      "patterns": [
+        "What are the different payment options available here",
+        "Can I pay through UPI",
+        "can I pay through netbanking",
+        "Can i make a UPI payment",
+        "Can I use Net banking to make a payment"
+      ],
+      "responses": [
+        "Yes, We accept UPI, Net Banking, Credit card, Debit card, Mobile wallets."
+      ]
+    },
+
+
+    {
+
+      "tag": "Loyalty_Program",
+      "patterns":[
+        "Are there any loyalty programs for frequent users?",
+        "Is there any loyalty program for frequent users?"
+      ],
+      "responses":[
+        "Yes, We offer a loyalty program called Privilage . Users can earn points for every booking and enjoy discounts or other benefits based on their loyalty level. Check the 'Rewards' section on our website for more details."
+      ]
+    },
+
+
+{
+
+      "tag": "Bus_Delay",
+      "patterns": ["What if my bus is delayed?"],
+      "responses": [
+        "Delays can occasionally happen due to various reasons such as traffic, weather, or unforeseen circumstances. If your bus is delayed, you can track its real-time location on our website or app. In case of significant delays, our customer support can provide assistance."]
+},
+
+
+
+{
+      "tag": "Payment_Assistance",
+      "patterns": [
+        "I'm having trouble making payment for my booking. Can you help?",
+        "I'm encountering issues while trying to complete the payment for my booking. Can you assist me?",
+        "Having difficulty processing the payment for my booking. Could you provide assistance with this matter?",
+        "I'm experiencing problems during the payment process for my booking. Is there any help available to resolve this?"
+      ],
+      "responses": [
+        "Of course! Please ensure that you have a stable internet connection and sufficient funds in your payment method. If the issue persists, you can try using a different payment card or contact your bank for assistance",
+        "Absolutely! Ensure that your internet connection is reliable and your payment method has adequate funds. If you're still having trouble, consider using a different payment card or contacting your bank for assistance.",
+        "Of course! Double-check that your internet connection is strong and there's enough balance in your payment method. If the problem continues, consider trying a different payment card or getting in touch with your bank for support.",
+        "Certainly! Make sure your internet connection is stable and there are enough funds in your payment method. If you're still facing issues, consider using another payment card or reaching out to your bank for help"
+      ]
+    },
+
+
+
+
+    {
+      "tag": "Booking_modification",
+      "patterns": [
+        "How can I reschedule the date of my bus ticket?",
+        "How should I modify bus ticket?",
+        "What's the process for changing the date on my bus ticket?",
+        "I'd like to switch the date of my bus ticket. How do I go about it?",
+        "How can I reschedule my ticket",
+        "Rescheduling my ticket help",
+        "help me regarding rescheduling my bus ticket"
+
+      ],
+      "responses": [
+        "To adjust your booking, navigate to 'My Bookings', then select the ticket you'd like to change. Look for the 'Modify' option and follow the steps to update your travel date. Note that there might be modification fees involved",
+        "To modify your booking, head to 'My Bookings' and pick the ticket you need to update. Then, click on 'Modify' and follow the instructions to change the date. Please be aware that there may be fees associated with modifications.",
+        "If you need to change your travel date, simply go to 'My Bookings' and choose the ticket you want to modify. From there, select 'Modify' and proceed with updating the date. Just a heads up, there could be modification charges."
+      ]
+    },
+
+
+
+    {
+      "tag": "Refund_Inquiry",
+      "patterns":["What is the refund policy if I need to cancel my bus ticket?",
+      "Can you explain the refund process for canceled bus tickets?",
+      "What happens if I cancel my bus ticket? Can I get a refund?",
+      "How does the refund work if I decide to cancel my bus ticket?"],
+      "responses":[
+        "Our refund policy is flexible, taking into account factors like cancellation timing and bus operator terms. You can access detailed refund policy information on our website or app. Feel free to ask if you need more clarification",
+        "Our refund policy varies depending on when you cancel and the specific terms set by the bus operator. You'll find comprehensive details about our refund policy on our website or app. Don't hesitate to reach out if you have questions",
+        "Refund policies are tailored to factors like cancellation timing and the policies of individual bus operators. You can review our detailed refund policy on our website or app. If you need further clarification, we're here to help"
+      ]
+    },
+
+
+    {
+      "tag": "Special_assistance",
+      "patterns":["How can I request special assistance for a passenger with specific needs?",
+      "What steps should I take to arrange special assistance for a passenger with disabilities?",
+      "How do I request assistance for a passenger who requires special accommodations?"
+      ],
+      "responses":[
+        "We prioritize providing assistance to passengers with special needs. Please reach out to our customer support team directly, and they'll help you arrange the necessary accommodations for your journey.",
+        "We're committed to supporting passengers with special needs. To arrange accommodations, please contact our customer support team for personalized assistance in ensuring a comfortable journey",
+        "Ensuring the comfort and safety of all passengers, including those with special needs, is important to us. Please get in touch with our customer support team, and they'll assist you in arranging the necessary accommodations."
+      ]
+    },
+
+
+    {
+      "tag": "Bus_operator",
+      "patterns":["Where can I find the contact details for the bus operator if I have questions about my trip?",
+      "How do I contact the bus operator if I need assistance with my travel arrangements?",
+      "What should I do if I need to speak to the bus operator about my upcoming journey?"
+      ],
+      "responses":[
+        "To reach the bus operator regarding your journey, check your ticket or booking confirmation email for their contact information. If you can't find it, just let me know, and I'll gladly provide you with the necessary details",
+        "You'll find the contact information for the bus operator on your ticket or booking confirmation email. If you're having trouble locating it, please inform me, and I'll assist you in obtaining the relevant contact details",
+      "f you have inquiries about your trip, refer to your ticket or booking confirmation email for the bus operator's contact information. If you can't locate it, don't hesitate to ask me, and I'll provide you with the necessary contact details"
+    ]
+    },
+
+
+    {
+      "tag": "Feedback_on_journey",
+      "patterns":[
+        "How can I share feedback about my recent bus journey?",
+        "What's the process for giving feedback on my recent bus trip?",
+        "How do I provide feedback about my bus journey?"
+      ],
+      "responses":[
+        "Your feedback is important to us! You can share your thoughts through the 'Feedback' section on our website or app. Your input enables us to enhance our services for future travelers. Thank you for taking the time to provide your valuable feedback!",
+        "We value your insights! You can share your feedback by accessing the 'Feedback' section on our website or app. Your comments contribute to our ongoing efforts to enhance our services for all travelers. We appreciate your time and input!",
+        "- Your feedback is greatly appreciated! You can submit your comments through the 'Feedback' section on our website or app. Your valuable input helps us continually improve our services for the benefit of all travelers. Thank you for sharing your experience with us!"
+    ]
+    },
+
+
+    {
+      "tag": "Luggage_policy_clarification",
+      "patterns":[
+        "What is the luggage policy for my bus journey?",
+        "Can you provide details about the luggage policy for my upcoming bus trip?",
+        "What are the rules regarding luggage for my bus journey?",
+        "I'm unsure about the luggage policy for my bus journey. Can you clarify?"
+      ],
+      "responses":[
+        "Certainly! The luggage policy can vary by bus operator. You'll find specific information about luggage allowance and restrictions on your ticket or booking confirmation. Feel free to ask if you need more details.",
+        "The luggage policy differs depending on the bus operator. Please refer to your ticket or booking confirmation for precise details about luggage allowance and restrictions. Don't hesitate to reach out if you have any questions.",
+        "Sure! Luggage policies vary among bus operators. Check your ticket or booking confirmation for specific guidelines on luggage allowance and restrictions. If you have further questions, don't hesitate to ask"
+    ]
+    },
+
+
+    {
+      "tag": "Travel_advisory_information ",
+      "patterns":["Are there any travel advisories or updates I should be aware of?",
+      "Should I be aware of any travel advisories or updates before my trip?",
+      "Are there any important travel advisories or updates I need to know about?",
+      "I'm planning a trip. Are there any travel advisories or updates I should be aware of?"
+      ],
+      "responses":[
+        "To stay informed about travel advisories or updates, please consult the latest notifications from local authorities or government agencies. You can also check our website or app for any relevant travel alerts or announcements",
+        "To ensure you're up-to-date with travel advisories or updates, please monitor the latest notifications from local authorities or government agencies. Additionally, feel free to visit our website or app for any pertinent travel alerts or announcements",
+        "To be informed about any travel advisories or updates, it's recommended to review the latest notifications from local authorities or government agencies. You can also check our website or app for any relevant travel alerts or announcements"
+    ]
+    },
+
+
+    {
+      "tag": "Promotional_offers_inquiry ",
+      "patterns":["Are there any current promotional offers or discounts available?",
+      "Do you currently have any promotions or discounts?",
+      "What promotional offers or discounts are available right now?"
+      ],
+      "responses":[
+        "Certainly! We frequently offer promotional discounts for our users. You can find the latest deals and promotions on our website or app. If you're subscribed to our newsletter, you may also receive exclusive offers.",
+        "Yes, we regularly offer promotions and discounts for our customers. To view the latest deals and promotions, please visit our website or app. If you're subscribed to our newsletter, you may receive exclusive offers as well.",
+        "We have ongoing promotional offers and discounts for our users. To see the latest deals and promotions, please check our website or app. If you're subscribed to our newsletter, you may receive exclusive offers"
+    ]
+    },
+
+
+    {
+      "tag": "Bus_eminities_clarification ",
+      "patterns":[
+        "What amenities are available on the bus for my journey?",
+        "Could you please tell me about the amenities provided on the bus for my journey?",
+        "What facilities can I expect on the bus for my trip?",
+        "I'm curious about the amenities provided onboard. Can you provide details?"
+      ],
+      "responses":[
+        "Certainly! Bus amenities can vary based on the operator and service type. Common features include air conditioning, reclining seats, Wi-Fi, and onboard restrooms. Specific details about the amenities offered by your bus operator will be available during the booking process.",
+        "The amenities available on the bus may differ depending on the operator and service category. Typically, buses offer amenities such as air conditioning, reclining seats, Wi-Fi, and onboard restrooms. You'll find specific information about your bus operator's amenities when booking your ticket",
+        "Sure! Bus amenities vary by operator and service type. Common amenities include air conditioning, reclining seats, Wi-Fi, and onboard restrooms. You'll receive specific information about the amenities offered by your bus operator as you proceed with the booking"
+    ]
+    },
+
+
+    {
+
+      "tag": "Bus_Miss ",
+      "patterns":[
+        "What happens if I miss my bus?",
+        "What happens if I do not catch my bus on time?",
+        "What happens if I fail to catch my bus on time?"
+      ],
+      "responses":[
+        "If you miss your bus, please contact our customer support immediately. Depending on the bus operator's policy, you may have options for rescheduling (subject to availability) or seeking assistance for an alternative solution.",
+        "If you fail to catch your bus, please contact our customer support immediately. Depending on the bus operator's policy, you may have options for rescheduling (subject to availability) or seeking assistance for an alternative solution.",
+        "If you do not catch your bus, please contact our customer support immediately. Depending on the bus operator's policy, you may have options for rescheduling (subject to availability) or seeking assistance for an alternative solution."
+      ]
+    },
+
+
+    {
+      "tag": "Documents",
+      "patterns":[
+        "What documents do I need to carry while boarding the bus?"
+      ],
+      "responses":[
+        " Generally, you need to carry a printout or display the e-ticket on your mobile device. Additionally, a valid government-issued ID, such as Aadhar card or driver's license, is usually required for verification during boarding."
+
+      ]
+    },
+
+
+
+    {
+      "tag": "Ticket_Confirmation_enquiry ",
+      "patterns":[
+        "I made a bus ticket booking, but I haven't received any confirmation email. Can you assist me?",
+        "What should I do if I haven't received a confirmation email for my bus ticket booking?",
+        "I'm concerned because I haven't received a confirmation email after booking my bus ticket. Can you provide guidance?"
+      ],
+      "responses":[
+        "Certainly! Start by checking your spam or junk folder for the confirmation email. If it's not there, please provide me with your booking details, and I'll help you verify your ticket.",
+        "If you haven't received a confirmation email, first check your spam or junk folder. If it's not there, please share your booking details with me, and I'll assist you in confirming your ticket.",
+        "Of course! Please take a moment to check your spam or junk folder to ensure the confirmation email wasn't filtered there. If you still haven't received it, kindly provide me with your booking details, and I'll help you confirm your ticket."
+    ]
+    },
+
+
+    {
+      "tag": "Travel_insurance_inquiry ",
+      "patterns":[
+        "Is travel insurance available for bus tickets?",
+        "Do you offer travel insurance for bus tickets?",
+        "Is there an option to get insurance for my bus journey?",
+        "Can I purchase travel insurance for my bus ticket?"
+      ],
+      "responses":[
+        "Absolutely! We provide travel insurance for bus tickets. When you book your ticket, you'll be presented with the option to add travel insurance for additional protection and peace of mind.",
+        "Yes, you can get travel insurance for bus tickets to ensure your journey is covered. Simply select the option to add travel insurance during the booking process for added security.",
+        "Certainly! You have the option to purchase travel insurance for your bus ticket. When you book your ticket, you'll be prompted to add travel insurance for added assurance during your journey.",
+        "Yes, we offer travel insurance for bus tickets. During the booking process, you'll have the option to add travel insurance to your ticket for added protection and peace of mind."
+      ]
+    }
+
+
+
+  ]
+}
+
